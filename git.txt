@@ -14,4 +14,5 @@ git add fileName
 git add fileName1, fileName2, fileName3, fileName4
 git add fileName
 
-   
+Once your files and folders are in the staging area, to commit any changes, we type ->
+git commit -m "commit message"
