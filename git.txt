@@ -2,6 +2,10 @@ VCS -> Version Control System -> Keep a track of your program.
 Git -> Git is a software, which allows us to do version controlling.
 Github -> Allows us to stock our program at a remote location.
 
+The very first thing you do after downloading git software is configure your git with your system.
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+
 git status
 
 Whenever you want to track a particular program, the very first thing you do is initializing that repository
@@ -12,7 +16,15 @@ NOTE : Make sure you are in the correct folder.
 To commit any particular changes, I have to push my files and folders to the staging area.
 git add fileName
 git add fileName1, fileName2, fileName3, fileName4
-git add fileName
+git add fileName 
 
 Once your files and folders are in the staging area, to commit any changes, we type ->
 git commit -m "commit message"
+
+To check all the commits you made we type ->  git log
+This gives you the complete details of your commit.
+
+git log --oneline
+This shows only my SHA ID and my commit message
+
+
