@@ -1,0 +1,17 @@
+VCS -> Version Control System -> Keep a track of your program.
+Git -> Git is a software, which allows us to do version controlling.
+Github -> Allows us to stock our program at a remote location.
+
+git status
+
+Whenever you want to track a particular program, the very first thing you do is initializing that repository
+
+to initializing the repository type "git init" in your terminal
+NOTE : Make sure you are in the correct folder.
+
+To commit any particular changes, I have to push my files and folders to the staging area.
+git add fileName
+git add fileName1, fileName2, fileName3, fileName4
+git add fileName
+
+   
