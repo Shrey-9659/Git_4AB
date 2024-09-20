@@ -43,9 +43,10 @@ git commit -m "your commit message"
 git status
 
 git blame fileName;
+git stash
 
 git branch
-git branch branchName
-git branch -d branchName
+git branch branchName 
+git branch -d branchName -> To delete a branch
 
 git checkout branchName
