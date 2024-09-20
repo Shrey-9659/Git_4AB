@@ -30,8 +30,8 @@ This shows only my SHA ID and my commit message
 
 ------------------------------------------------------------------------------------------------------
 
-git config --global user.name "your name"
-git config --global user.email "your email"
+git config --global user.name "your name" -> to configure your userName
+git config --global user.email "your email" -> -> to configure your userEmail
 
 git config --global user.name
 git config --global user.email
