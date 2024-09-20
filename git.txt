@@ -52,3 +52,11 @@ git branch -M newBranchName -> to change the branch name
 
 git checkout branchName
 git merge branchName
+
+git add remote origin <git repo link>
+git push -u origin main  --> origin is the default name of your github repo and main is your branch name which you are pushing
+
+
+git clone <repo link>
+git pull origin main
+
