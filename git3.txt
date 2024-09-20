@@ -1,1 +1,6 @@
-  
+  1 - Primary -> In which branch you want to merge
+  2 - Secondary -> Which branch you want to merge
+
+git merge Secondary
+
+  You always have to be on the primary branch, and in the syntax you always write the Secondary branch name.

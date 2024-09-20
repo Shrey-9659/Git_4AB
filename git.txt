@@ -28,3 +28,23 @@ git log --oneline
 This shows only my SHA ID and my commit message
 
 
+------------------------------------------------------------------------------------------------------
+
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+git config --global user.name
+git config --global user.email
+
+git init
+git add . || git add fileName || git add fileName1, fileName2, fileName3...
+git commit -m "your commit message"
+
+git status
+
+git blame fileName;
+
+git branch
+git branch branchName
+
+git checkout branchName
